@@ -1,0 +1,14 @@
+body {
+    color: blue;
+    text-align: center;
+}
+
+ul {
+    color: fuchsia;
+    font-style: italic;
+}
+
+li{
+    color: red;
+    font-weight: bold;
+}

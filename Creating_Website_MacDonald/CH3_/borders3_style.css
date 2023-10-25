@@ -1,0 +1,62 @@
+.dotted {
+    border-style: dotted;
+}
+
+.dashed {
+    border-style: dashed;
+}
+
+.solid {
+    border-style: solid ;
+    border-width: 3px;
+}
+
+.double-border {
+    border-style: double;
+}
+
+.groove {
+    border-style: groove;
+}
+
+.ridge {
+    border-style: ridge;
+}
+
+.inset {
+    border-style: inset;
+}
+
+.outset {
+    border-style: outset;
+}
+
+
+.notebox {
+    background-color: yellow;
+    margin: 20px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-top-left-radius: 150px 30px;
+    border-top-right-radius: 150px 30px;
+}
+
+.round-top {
+    border-style: solid;
+    border-width: 1px;
+    border-top-right-radius: 50px;
+}
+
+.stretch {
+    border-style: dashed;
+    border-top-right-radius: 150px 50px;
+}
+    
+.crazybox {
+    border-style: dotted;
+    border-top-right-radius: 100px 50px;
+    border-top-left-radius: 150px 30px;
+    border-bottom-left-radius: 40px 90px;
+    border-bottom-right-radius: 20px 75px;
+    padding: 20px;}

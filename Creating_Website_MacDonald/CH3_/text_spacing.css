@@ -1,0 +1,20 @@
+/*.top-class {
+    margin: 5px 10px; 
+top, bottom, left, right*/
+/*In the name of the Father, 
+the Son and the Holy Spirit
+}*/
+
+.no-top-margin{
+
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.ten-percent {
+    margin-left: 10%;
+}
+
+.hundred-px-rt-margin{
+    margin-right: 100px;
+}

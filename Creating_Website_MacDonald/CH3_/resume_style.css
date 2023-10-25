@@ -1,0 +1,27 @@
+body {
+    /*font-family: Verdana, Arial, sans-serif;*/
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 83%;
+}
+
+
+h1{
+
+    text-align: center;
+    color: fuchsia;
+    border-style: double;
+}
+
+h2 {
+    color: fuchsia;
+    margin-bottom: 20px;
+    font-size: 100%;
+}
+
+li {
+    font-style: italic;
+}
+
+p {
+    margin-top: 2px;
+}
