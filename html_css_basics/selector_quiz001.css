@@ -1,0 +1,17 @@
+p {
+    background-color: rgb(188, 157, 219);
+}
+
+
+/* All three selectors would select the anchor <a> tag */
+a {
+    background-color: black;
+}
+
+[href] {
+    background-color: brown;
+}
+
+.link {
+    background-color: chartreuse;
+}
