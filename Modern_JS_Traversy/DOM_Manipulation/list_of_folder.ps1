@@ -1,0 +1,1 @@
+"testfolder3", "testfolder4" | ForEach-Object{New-item -Name ".\$_" -ItemType 'Directory'}
