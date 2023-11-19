@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="spanning.css">
+    <title>Spanning Table Cells</title>
+</head>
+<body>
+    <!--Tables support spanning, a feature that lets a single cell stretch 
+        out over several columns or rows. Think of spanning as HTML’s version 
+        of the Merge Cells feature in Microsoft Word and Excel.
+
+Spanned cells let you tweak your tables in all kinds of funky ways. 
+You can, for example, specify a column span to stretch a cell over 
+two or more columns beside it. Just add a colspan attribute to 
+the <td> element you want to extend, and specify the total number of columns 
+you want to merge.-->
+<table>
+    <tr>
+        <td>Column 1</td>
+        <td>Column 2</td>
+        <td>Column 3</td>
+        <td>Column 4</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td colspan="2">Look out, this cell spans two columns!</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td rowspan="2">This cell spans two rows</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td rowspan="2">And this cell gobbles a grid of four cells</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+
+</table>
+</body>
+</html>

@@ -1,0 +1,10 @@
+table {
+    border-width: 3px;
+    border-style: solid;
+    border-color: blue;
+}
+td, th {
+    border-width: 3px;
+    border-style: solid;
+    border-color: blue;
+}
