@@ -1,0 +1,32 @@
+/* xx-large {
+    font-size: xx-large;
+} */
+x-large {
+    font-size: x-large;
+}
+p large {
+    font-size: large;
+}
+p medium {
+    font-size: medium;
+}
+
+p small {
+    font-size: small;
+}
+
+p x-small {
+    font-size: x-small;
+}
+
+p xx-small {
+    font-size: xx-small;
+}
+
+.twelve-px {
+    font-size: 12px;
+}
+
+.hundred-px {
+    font-size: 100px;
+}
