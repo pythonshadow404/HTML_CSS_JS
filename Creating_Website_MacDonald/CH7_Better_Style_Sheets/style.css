@@ -9,11 +9,22 @@ h1{
     color: #c7c7c7;
 }
 
-img.scowl_small, img.house_small{
+img{
     float: left;
     margin-right: 10px;
 }
 
+p.by-line{
+    margin: 5px 0 5px 0;
+    border-style: outset;
+    border-width: 0 0 1px 0;
+}
+
 .sub-heading{
     color: #680400;
+}
+
+p.reviewEnd{
+    text-align: right;
+    clear: both;
 }
