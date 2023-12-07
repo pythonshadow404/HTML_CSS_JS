@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* 1. Descendant selector */
+        section p{
+            background-color: red;
+        }
+        /* 2. child selector */
+        section > p{
+            background-color: rebeccapurple;
+        }
+        /* 3. Adjacent Sibling (+) selector */
+        h1 + p{
+            background-color: orange;
+        }
+        /* 4. General sibling (~) selector */
+        h1 ~ p {
+            background-color: yellow;
+        }
+    </style>
+    <title>CSS Combinators</title>
+</head>
+<body>
+    <!-- Combinator defines the relationship between selectors. 
+    In CSS, we have four different combinators. 
+    1. The first one is called descendant selector which is expressed by space. -->
+    <section>
+        <p>Paragraph1</p>
+        <h1>Heading</h1>
+        <p>Paragraph2</p>
+        <p>Paragraph3</p>
+        <div>
+            <p>Nested Paragraph</p>
+        </div>
+        <p>Paragraph4</p>
+        <p>Paragraph5</p>
+    </section>
+
+    <!-- 2. The child combinator (>) Next one is called child combinator. 
+        It's expressed using greater than sign (>). Actually, child combinator 
+        selects all immediate children of specified element. -->
+
+</body>
+</html>
