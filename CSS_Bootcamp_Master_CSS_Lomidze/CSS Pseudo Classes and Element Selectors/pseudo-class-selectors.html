@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* The single colon pseudo class defines the new normal state before the 
+           user click on the link. 
+           The pseudo-classes which mostly are used with links.*/
+        a:link {
+            font-size: 35px;
+            text-decoration: none;
+            color: green;
+        }
+        a:visited{
+            color: goldenrod;
+        }
+        a:hover{
+            /* what happens when the mouse hovers over the link */
+            color: gray;
+        }
+        a:active {
+            /* What happens when we are actively clicking the link. 
+            NOTE: The order of operation is important*/
+            color: skyblue;
+        }
+    </style>
+    <title>Pseudo Selectors and Pseudo Elements</title>
+</head>
+<body>
+    <!-- Default color for unclicked link is blue and
+        default decoration is underlined -->
+    <a href="https://www.google.com">Click here</a>
+</body>
+</html>
