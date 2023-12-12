@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container{
+            margin-top: 50px;
+            padding: 20px 0;
+            background-color: #f19861;
+            height: 500px;
+            display: flex;
+            flex-wrap:  nowrap;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .item {
+            width: 70px;
+
+            padding: 30px;
+            margin: 10px;
+            background-color: #06af8f;
+            text-align: center;
+            color: #fff;
+        }
+        .item-1{
+            width: 200px;
+            order: 1;
+            /* flex-grow: 1; */
+        }
+        .item-5{
+            width: 200px;
+            order: -1;
+            /* flex-grow: 1; */
+            /* flex-shrink: 0; */
+            flex: 0 1 auto;
+        }
+    </style>
+    <title>Flex box Container</title>
+</head>
+<body>
+    <div class="container">
+        <div class="item item-1">A</div>
+        <div class="item item-2">B</div>
+        <div class="item item-3">C</div>
+        <div class="item item-4">D</div>
+        <div class="item item-5">E</div>
+    </div>
+</body>
+</html>
