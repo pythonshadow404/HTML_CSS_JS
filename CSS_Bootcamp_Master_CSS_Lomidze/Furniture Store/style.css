@@ -1,1 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Alegreya', serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.container {
+    display: grid;
+    grid-template-columns: minmax(6rem, 1fr) repeat(8,minmax(min-content, 16rem)) minmax(6rem, 1fr);
+    grid-template-rows: repeat(3, min-content);
+    grid-row-gap: 1.6rem;
+}
+
+.social-icons {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+}
+/* end of navbar */
