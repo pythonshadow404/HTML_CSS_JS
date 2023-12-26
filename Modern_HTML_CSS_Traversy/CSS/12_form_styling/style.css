@@ -1,0 +1,63 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #344a72;
+}
+
+#container {
+    max-width: 400px;
+    margin: 30px auto;
+    line-height: 1.8;
+    padding: 20px;
+
+    
+}
+
+.form-warp {
+    background-color: #fff;
+    padding: 15px 25px;
+}
+
+.form-warp h1,
+.form-warp p {
+    text-align: center;
+}
+
+
+.form-group {
+    margin-top: 10px;
+}
+
+.form-warp .form-group input {
+    display: block;
+    width: 100%;
+    padding: 10px;  /* do not use height for the input*/
+    border: #ddd 1px solid;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    width: 100%;
+    display: block;
+    background-color: #37a08e;
+    color: #fff;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    color: #49c1a2;
+}
