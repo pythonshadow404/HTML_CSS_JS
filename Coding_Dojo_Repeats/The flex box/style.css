@@ -1,0 +1,19 @@
+.container {
+    width: 960px;
+    height: 400px;
+    margin: 0 auto;
+    background: silver;
+}
+
+.col {
+    background: blanchedalmond;
+    padding: 10px;
+    /* inline-block also require a width size that will fit
+    within the container */
+    display: inline-block;
+    width: 320px;
+}
+
+.col p {
+    font-size: 1.2rem;
+}
