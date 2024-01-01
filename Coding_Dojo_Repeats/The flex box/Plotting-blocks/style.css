@@ -1,0 +1,53 @@
+.container {
+    background: #c0c0c0;
+    width: 960px;
+    height: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: green;
+    height: 100px;
+    margin-bottom: 30px;
+    width: 920px;
+}
+.content {
+    display: flex;
+}
+
+.sidebar {
+    background: blue;
+    width: 200px;
+    height: 300px;
+}
+
+.red-box {
+    background: red;
+    width: 700px;
+    height: 400px;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.yellow-boxes{
+    display: flex;
+    margin-top: 10px;
+}
+
+.box-1, .box-2, .box-3 {
+    background: yellow;
+    width: 200px;
+    height: 180px;
+    margin-left: 10px;
+}
+
+.last-box {
+    background: purple;
+    height: 100px;
+    margin: 30px 10px;
+    width: 620px;
+
+}
+
+
