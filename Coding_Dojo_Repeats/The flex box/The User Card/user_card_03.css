@@ -1,8 +1,29 @@
+.container {
+    margin: 0 auto;
+    width: 550px;
+    border: solid 2px silver;
+    border-radius: 5px;
+    /* padding: 20px; */
+}
+
 .nav {
     background-color: #17a2b8;
-    height: 80px;
+    height: 60px;
+    margin-bottom: 40px;
+   
+}
+
+.content img {
+    height: 20px;
 }
 
 .nav img {
-    height: 160px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.content {
+    margin-left: 20px;
+    font-size: 1.2rem;
+    
 }
