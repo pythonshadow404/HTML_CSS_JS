@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    width: 900px;
+    border: solid 2px silver;
+    margin: 0 auto;
+} 
+
+.user-card {
+    width: 100%;
+    
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 150px ;
+    margin-bottom: 80px;
+}
+
+.profile-pic {
+    /* padding: 5px; */
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 200px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+.card-body h1,
+.card-body h2,
+.card-body h3,
+.card-body p {
+    margin: 20px 0px;
+}
