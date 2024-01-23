@@ -1,0 +1,18 @@
+body {
+    background-color: #f5f5f5;
+    color: #3f2860;
+}
+
+header, footer {
+    background-color: #9BC1c2;
+}
+
+h1 {
+    line-height: 200%;
+} 
+
+nav {
+    text-align: center;
+    font-weight: bold;
+}
+
