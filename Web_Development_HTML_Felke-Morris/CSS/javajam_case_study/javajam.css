@@ -25,7 +25,11 @@ nav {
     font-weight: bold;
 }
 
+dt{
+    font-weight: bold ;
+}
 footer {
+    background-color: #d2b48c;
     font-style: italic;
     text-align: center;
     font-size: .60em;
