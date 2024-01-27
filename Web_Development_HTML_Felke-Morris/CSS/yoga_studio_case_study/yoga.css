@@ -3,8 +3,18 @@ body {
     color: #3f2860;
 }
 
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
 header, footer {
     background-color: #9BC1c2;
+    text-align: center;
+}
+
+dt {
+    font-weight: bold;
 }
 
 h1 {
