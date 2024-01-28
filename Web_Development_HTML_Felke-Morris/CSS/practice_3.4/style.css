@@ -1,0 +1,44 @@
+body {
+    background-color: #e6e6fa;
+    color:#191970;
+    font-family: Arial, Verdana, sans-serif;
+    
+}
+
+h1 {
+    background: #191970;
+    color: #e6e6fa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 200%;
+    text-indent: 1em;
+    text-shadow: 3px 3px 5px #ccc;
+}
+
+h2{
+    background-color: #aeaed4;
+    color:#191970;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+nav {
+    font-weight: bold;
+    font-size: 1.25em;
+    word-spacing: 1em;
+}
+
+p {
+    font-size: .90em;
+}
+
+ul {
+    font-weight: bold;
+}
+
+.feature {
+    color: #c70000;
+}
+
+main p {
+    
+}
