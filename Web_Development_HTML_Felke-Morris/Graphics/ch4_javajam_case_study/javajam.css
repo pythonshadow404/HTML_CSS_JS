@@ -4,19 +4,33 @@ body {
     font-family: Verdana, Arial, sans-serif;
 }
 
+header {
+    background-color: #d2b48c;
+    background-image: url(javajamlogo.jpg);
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 #wrapper {
     width: 960px;
     margin: 0 auto;
+    background-color: #FEF6C2;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 5px 5px 5px #000;
 }
+
 
 h1, h2 {
     color: #221811;
     background-color: #d2b48c;
-    text-align: center;
+    /* text-align: center; */
 }
 
 h1 {
     line-height: 200%;
+    height: 150px;
 }
 
 
@@ -24,6 +38,8 @@ nav {
     text-align: center;
     font-weight: bold;
 }
+
+
 
 dt{
     font-weight: bold ;
