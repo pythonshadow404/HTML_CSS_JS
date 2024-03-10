@@ -3,6 +3,11 @@ body {
     color: #666;
 }
 
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
 header{
     background-color: #000033;
     color: #fff;
