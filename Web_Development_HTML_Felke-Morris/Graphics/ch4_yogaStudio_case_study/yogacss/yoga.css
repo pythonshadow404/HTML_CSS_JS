@@ -1,6 +1,6 @@
 body {
     background: #f5f5f5;
-    color: #3f2860;
+    background-color: #3f2860;
     font-family: Verdana, Arial, Tahoma, sans-serif;
 }
 
@@ -13,21 +13,41 @@ body {
 }
 
 header {
+    height: 150px;
     background-color: #9bc1c2;
-    text-align: center;
+    background-image: url(../images/lilyheader.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: right;
+    
 }
 
 h1 {
-    line-height: 200%;
+    padding-top: 50px;
+    padding-left: 2em;
 }
 
 nav {
     text-align: center;
     font-weight: bold;
+    padding: 1em;
 }
 
 nav a {
     text-decoration: none;
+}
+
+main{
+    padding: 0 2em;
+}
+
+img {
+    /* padding: 0 1em; */
+}
+
+#hero {
+    text-align: center;
+    
 }
 
 .studio {
@@ -39,4 +59,5 @@ footer {
     font-size: 0.60em;
     font-style: italic;
     text-align: center;
+    padding: 1em;
 }
