@@ -20,6 +20,27 @@ nav {
     letter-spacing: 0.1em;
 }
 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    background-color: #b3c7e6;
+    display: block;
+    border: 1px solid #fff;
+}
+
+nav a:link {color: #fff}
+nav a:visited {color: #eaeaea;}
+nav a:hover {
+    color: #869DC7;
+    background-color: #eaeaea;
+}
+
 header {
     background-color: #869DC7;
     color: #00005D;
@@ -36,3 +57,21 @@ main {
     display: block;
     overflow: auto;  /*Recommanded method to clear a float*/
 }
+
+h2 {
+    color: #869dc7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#floatright {float: right;
+            margin: 10px;
+        }
+
+footer {
+    font-size: 70%;
+    text-align: center;
+    padding: 10px;
+    background-color: #869DC7;
+    clear: both;
+}
+
