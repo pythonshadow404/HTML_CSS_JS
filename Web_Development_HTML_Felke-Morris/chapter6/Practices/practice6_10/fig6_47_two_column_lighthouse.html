@@ -27,12 +27,7 @@ nav a { text-decoration: none;
 nav a:link { color: #ffffff; }
 nav a:visited { color: #eaeaea; }
 nav a:hover { color: #000066; }		
-main {  display: block; /* for Internet Explorer version 10 and below */
-        margin-left: 155px;
-        padding: 20px;
-        background-color: #ffffff;
-        color: #000000;
-} 
+
 header { background-color: #869dc7;
         color: #00005D; 
         font-size: 150%; 
@@ -40,9 +35,36 @@ header { background-color: #869dc7;
 		background-image: url(lighthouselogo.jpg); 
 		background-repeat: no-repeat;
 }
-h1 { margin-bottom: 20px; }
+h1 { margin-bottom: 0; }
+span {
+    font-style: italic;
+    font-size: .80em;
+    color: #00005D;
+
+}
 h2 { color: #869dc7; 
      font-family: arial, sans-serif;
+     font-size: 200%;
+}
+
+aside {
+    float: right;
+    width: 200px;
+    background-color: #eaeaea;
+    padding: 20px;
+    margin-right: 40px;
+    font-size: 80%;
+    box-shadow: 5px;
+    position: relative;
+    top: -40px;
+}
+
+article header{
+    background-color: #fff;
+    background-image: none;
+    font-size: 90%;
+    padding-left: 0;
+    height: auto;
 }
  
 #floatright { margin: 10px;
