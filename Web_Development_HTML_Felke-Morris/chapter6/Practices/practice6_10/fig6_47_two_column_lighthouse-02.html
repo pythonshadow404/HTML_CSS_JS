@@ -5,6 +5,7 @@
 <meta charset="utf-8">
 <style>
 * { box-sizing: border-box; }
+
 body {font-family:Verdana, Arial, sans-serif;
       background-color: #00005D;
 }
@@ -40,21 +41,41 @@ header { background-color: #869dc7;
 		background-image: url(lighthouselogo.jpg); 
 		background-repeat: no-repeat;
 }
+
+article header {background-color: #fff;
+                background-image: none;
+                font-size: 90%;
+                padding-left: 0;
+                height: auto;
+}
+
+aside {
+    float: right;
+    width: 200px;
+    background-color: #eaeaea;
+    padding: 20px;
+    margin-right: 40px;
+    font-size: 80%;
+    box-shadow: 5px 5px 5px #000000;
+    position: relative;
+    top: -40px;
+}
+
 h1 { margin-bottom: 0; }
 h2 { color: #869dc7; 
      font-family: arial, sans-serif;
      font-size: 200%;
 }
- 
+
 #floatright { margin: 10px;
-              float: right;
+        float: right;
 }
 
 footer { font-size:70%;
-         text-align: center;
-		 clear: right;
-         padding: 20px;
-		 background-color: #869dc7; 
+        text-align: center;
+		clear: right;
+        padding: 20px;
+		background-color: #869dc7; 
 }
 </style> 
 </head>
@@ -94,13 +115,9 @@ footer { font-size:70%;
                     peppers on a whole wheat wrap
                 </p>
             </article>
-                
-          
         </section>
-      
     </main>
-    <footer>Copyright &copy; 2016
-    </footer>
+    <footer>Copyright &copy; 2016</footer>
 </div>
 </body>
 </html>
