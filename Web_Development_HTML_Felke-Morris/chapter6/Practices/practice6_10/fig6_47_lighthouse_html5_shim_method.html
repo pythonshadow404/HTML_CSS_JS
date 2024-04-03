@@ -5,6 +5,10 @@
 <meta charset="utf-8">
 <style>
 * { box-sizing: border-box; }
+header, main, nav, footer, section, 
+article, figure, figcaption, aside {
+    display:block;
+}
 
 body {font-family:Verdana, Arial, sans-serif;
       background-color: #00005D;
@@ -78,6 +82,9 @@ footer { font-size:70%;
 		background-color: #869dc7; 
 }
 </style> 
+<!-- [if lt IE 9] -->
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<!-- [endif] -->
 </head>
 <body>
 <div id="wrapper">
@@ -119,6 +126,7 @@ footer { font-size:70%;
     </main>
     <footer>Copyright &copy; 2016</footer>
 </div>
+
 </body>
 </html>
 
