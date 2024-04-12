@@ -28,9 +28,13 @@ h1 {
 }
 
 nav {
-    text-align: center;
+    float: left;
     font-weight: bold;
     padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
 }
 
 nav a {
