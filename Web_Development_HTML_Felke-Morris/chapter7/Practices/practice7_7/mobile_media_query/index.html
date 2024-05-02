@@ -67,10 +67,24 @@ footer { font-size:70%;
 		 background-color: #869dc7;
 }
 @media only screen and (max-width: 1024px) {
+  body {margin: 0;}
+  #wrapper {width: auto;}
   main {margin-left: 0;}
   nav {float: none; width: auto;}
+  nav li {display: inline-block; padding: 0.5em;}
+  nav ul {text-align: center;}
+  nav a {border-style: none;}
+  h1, h2 { font-size: 120%;}
+  p { font-size: 90%;}
 }
-  
+@media only screen and (max-width: 768px) {
+  h1, h2 { font-size: 120%;}
+  p { font-size: 90%;}
+  figure { display: none;}
+  nav, nav ul, nav li { padding: 0;}
+  nav li {display: block;}
+  nav a {display: block; padding: 0.5em 0; 
+        border-bottom: 2px ridge #00005D;}
 }
 </style>
 
