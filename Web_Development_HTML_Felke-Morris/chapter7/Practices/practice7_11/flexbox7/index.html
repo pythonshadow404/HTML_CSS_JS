@@ -39,7 +39,11 @@ aside {flex: 2}
 img { width: 100%; 
       height: auto;
 }
-nav ul { list-style-type: none; 
+nav ul { 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style-type: none; 
          font-size: 1.2em;
 		     padding-left: 0;
 }
@@ -55,6 +59,7 @@ footer { text-align: center;
 		     padding: 2.5%;
 }
 @media only screen and (max-width: 1024px) {
+            #demo {flex-direction: column;}
             body { margin: 0; padding: 0; } 
             #wrapper { width: auto; margin: 0; }
 		        h1 { font-size: 200%; }
@@ -63,7 +68,8 @@ footer { text-align: center;
 			
 }		
 @media only screen and (max-width: 768px) {
-         	
+          nav { order: 1;}
+         	nav ul { flex-wrap: wrap;}
 }
 header, main, nav, footer, figure, figcaption { display: block; }
 </style>
