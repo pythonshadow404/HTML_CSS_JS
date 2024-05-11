@@ -32,13 +32,15 @@ h1 { text-align: center;
 nav, main, aside {  padding: 0 1em; 
 }
 
-nav {flex: 1;}
+nav {flex: 1; 
+      order:1;}
 main {flex: 7;}
 aside {flex: 2}
 
 img { width: 100%; 
       height: auto;
 }
+
 nav ul { 
         display: flex;
         flex-direction: row;
@@ -71,11 +73,7 @@ footer { text-align: center;
           nav { order: 1;}
          	nav ul { flex-wrap: wrap;}
 }
-header, main, nav, footer, figure, figcaption { display: block; }
 </style>
-<!--[if lt IE 9]>
-   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>   
-<![endif]--> 
 </head>
 <body>
 <div id="wrapper">
