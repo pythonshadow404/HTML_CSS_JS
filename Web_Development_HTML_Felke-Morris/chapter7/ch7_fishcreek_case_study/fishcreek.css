@@ -75,5 +75,13 @@ footer {
      h1 {margin:0; font-size: 1.8em; line-height: 200%;}
      nav {float: none; width: auto;}
      nav li {display: inline-block;}
+     nav a {padding:1em; font-size: 1.2em;}
+     nav ul {align-items: center; padding: 0; margin: 0;}
+     main {font-size: 90%; margin: 0; padding-left: 2em;}
+     footer {margin: 0;}
 
+}
+
+@media only screen and (max-width: 768px) {
+    header {background-image: url(lilfish.gif); background-repeat:no-repeat; background-position: center;   }
 }
