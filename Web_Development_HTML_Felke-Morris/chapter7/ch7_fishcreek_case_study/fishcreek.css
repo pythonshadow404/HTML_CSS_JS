@@ -89,6 +89,9 @@ footer {
     nav li {display: block;}
     nav ul {text-align: left;}
     main {padding-left: 1em;}
+    .category {text-shadow: none;}
+    #mobile { display: inline;}
+    #desktop {display: none;}
 
 
 }

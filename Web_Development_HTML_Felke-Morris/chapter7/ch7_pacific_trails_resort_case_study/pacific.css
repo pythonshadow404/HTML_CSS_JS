@@ -1,0 +1,105 @@
+* {box-sizing: border-box;}
+
+body {
+    background-image: url(background.jpg);
+    color: #666;
+}
+
+#wrapper {
+    width: 80%;
+    min-width: 700px;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: #90c7e3;
+    box-shadow: 5px 5px 5px #000;
+}
+
+header{
+    background-color: #000033;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    line-height: 200%;
+    background-image: url(sunset.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 20px;
+    margin-bottom: 0;
+    height: 72px;
+}
+
+nav {
+    float:left;
+    font-weight: bold;
+    width: 160px;
+    padding: 20px 5px 0px 20px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav a {text-decoration: none;}
+
+nav a:link {color:#000033}
+nav a:visited {color: #344873;}
+nav a:hover {color: #fff;}
+
+#homehero {
+    margin-left: 170px;
+    height: 300px;
+    background-image: url(coast.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#yurthero {
+    margin-left: 170px;
+    height: 300px;
+    background-image: url(yurt.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#trailhero {
+    margin-left: 170px;
+    height: 300px;
+    background-image: url(trail.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* main area */
+main {
+    background-color: #fff;
+    margin-left: 170px;
+    /* padding-top: 1px;
+    padding-bottom: 1px; */
+    padding: 1px 20px;
+}
+/* End of main area */
+
+h2 {
+    color: #3399cc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+dt{
+    color: #000033;
+    font-weight: bold;
+}
+
+.resort {
+    color: #000033;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+footer{
+    font-size: .70em;
+    font-style: italic;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 170px;
+    padding: 10px;
+}
