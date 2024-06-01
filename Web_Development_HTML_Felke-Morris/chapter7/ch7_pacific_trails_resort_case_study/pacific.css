@@ -103,3 +103,6 @@ footer{
     margin-left: 170px;
     padding: 10px;
 }
+
+@mobile {display: none}
+@desktop {display: inline}
