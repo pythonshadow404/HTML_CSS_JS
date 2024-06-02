@@ -106,3 +106,6 @@ footer{
 
 @mobile {display: none}
 @desktop {display: inline}
+@media only screen and (max-width: 1024px) {
+    body {margin:0; padding: 0; background-image: none;}
+}
