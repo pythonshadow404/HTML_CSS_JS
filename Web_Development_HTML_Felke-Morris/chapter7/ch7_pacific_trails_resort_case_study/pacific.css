@@ -123,5 +123,6 @@ footer{
     h1{height: 100%; font-size: 1.5em;padding-left: 0.3em;}
     nav{padding:0;}
     nav a{display: block; padding: 0.2em;font-size: 1.3em; border-bottom: 1px solid #330000}
+    nav ul{margin: 0; padding:0;}
 
 }
