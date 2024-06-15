@@ -128,5 +128,7 @@ footer{
     main{padding-top: 0.1em; padding-right: 0.6em; padding-bottom: 0.1em; padding-left: 0.4em;}
     #homehero, #yurhero, #trailhero{display: none;}
     footer{padding: 0;}
+    #mobile {display: inline;}
+    #desktop{display: none;}
 
 }
