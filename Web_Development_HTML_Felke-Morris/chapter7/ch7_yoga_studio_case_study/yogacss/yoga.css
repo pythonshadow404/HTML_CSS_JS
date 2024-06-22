@@ -89,4 +89,5 @@ footer {
 @media only screen and (max-width: 1024px){
     body{margin: 0; padding:0;}
     #wrapper{width: 100%;min-width: 0; margin: 0;padding: 0;}
+    head{padding-top: 1px;}
 }
