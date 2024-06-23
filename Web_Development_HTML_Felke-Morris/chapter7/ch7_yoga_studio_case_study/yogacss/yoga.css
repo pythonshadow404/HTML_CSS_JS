@@ -90,4 +90,5 @@ footer {
     body{margin: 0; padding:0;}
     #wrapper{width: 100%;min-width: 0; margin: 0;padding: 0;}
     head{padding-top: 1px;}
+    nav{float: none;width:auto;padding-left: 2em;}
 }
