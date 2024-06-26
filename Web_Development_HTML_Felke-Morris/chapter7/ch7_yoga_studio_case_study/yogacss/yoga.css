@@ -93,4 +93,5 @@ footer {
     nav{float: none;width:auto;padding-left: 2em;}
     nav a{padding: 0.2em; margin-left: 0.3em; float: left; width: 23%;}
     main{padding: 2.5em 1em; margin: 0; font-size: 90%; clear:both;}
+    #hero img{width: 100%;height: auto;}
 }
