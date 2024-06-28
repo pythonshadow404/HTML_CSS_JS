@@ -95,4 +95,5 @@ footer {
     main{padding: 2.5em 1em; margin: 0; font-size: 90%; clear:both;}
     #hero img{width: 100%;height: auto;}
     h2 h3 p dl{padding: 0 2em;}
+    main ul{margin-left: 2em;}
 }
