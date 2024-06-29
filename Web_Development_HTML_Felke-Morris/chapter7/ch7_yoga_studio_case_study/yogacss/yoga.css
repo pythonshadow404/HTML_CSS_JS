@@ -96,4 +96,5 @@ footer {
     #hero img{width: 100%;height: auto;}
     h2 h3 p dl{padding: 0 2em;}
     main ul{margin-left: 2em;}
+    .floatleft{margin-left: 2em;margin-bottom: 1em;}
 }
