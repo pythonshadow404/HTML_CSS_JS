@@ -99,3 +99,8 @@ footer {
     .floatleft{margin-left: 2em;margin-bottom: 1em;}
     .class {padding-left: 2em;}
 }
+
+@media only all and (max-width: 768px){
+    h1{font-size: 2em; padding-top: 0.25em; padding-left: 1.5em; width: 85%;
+    text-align: center;}
+}
