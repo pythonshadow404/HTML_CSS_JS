@@ -104,4 +104,5 @@ footer {
     h1{font-size: 2em; padding-top: 0.25em; padding-left: 1.5em; width: 85%;
     text-align: center;}
     nav a{padding: 0.5em; width: 45%; float: left; min-width: 6em; margin-left: 0.5em;}
+    main{padding-top: 0;}
 }
