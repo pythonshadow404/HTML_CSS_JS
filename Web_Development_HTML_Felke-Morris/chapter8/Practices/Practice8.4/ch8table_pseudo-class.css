@@ -24,4 +24,5 @@ td, th{
 /* .altrow {background-color: #eaeaea;} */
 
 tr:nth-of-type(even) {background-color:#eaeaea;}
+tr:first-of-type{background-color: #066; color: #eaeaea;}
 
