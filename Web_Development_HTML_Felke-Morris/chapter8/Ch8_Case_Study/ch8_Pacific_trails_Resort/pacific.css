@@ -95,7 +95,8 @@ dt{
     font-weight: bold;
 }
 
-table{width: 90%; margin: 0; border: 1px solid #3399cc;}
+table{width: 90%; margin: 0; border: 1px solid #3399cc;border-collapse: collapse;}
+td, th {padding: 5px; border: 1px solid #3399cc;}
 
 
 
