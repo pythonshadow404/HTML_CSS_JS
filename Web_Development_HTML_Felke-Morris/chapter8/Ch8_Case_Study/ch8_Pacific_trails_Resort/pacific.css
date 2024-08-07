@@ -98,7 +98,8 @@ dt{
 table{width: 90%; margin: 0; border: 1px solid #3399cc;border-collapse: collapse;}
 td, th {padding: 5px; border: 1px solid #3399cc;}
 td {text-align: center;}
-
+.text {text-align: left;}
+tr:nth-last-of-type(odd){background-color: #f5fafc;}
 
 
 
