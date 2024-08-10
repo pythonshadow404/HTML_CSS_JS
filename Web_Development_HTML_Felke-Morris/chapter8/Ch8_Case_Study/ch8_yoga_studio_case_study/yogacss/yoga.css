@@ -74,8 +74,24 @@ dl dt {font-weight: bold ;}
     font-style: italic;
 }
 
-table{margin: 0; width: 60%;}
+table { margin: 0; width: 60%;
+        border: 1px solid #3f2860;
+        border-collapse: collapse;
+        margin-bottom: 1em;}
 
+caption {
+    margin: 1em;
+    font-weight: bold;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px solid #3f2860;
+}
+
+tr:nth-of-type(even) {
+    background-color: #9bc1c2;
+}
 
 footer {
     background-color: #9bc1c2;
