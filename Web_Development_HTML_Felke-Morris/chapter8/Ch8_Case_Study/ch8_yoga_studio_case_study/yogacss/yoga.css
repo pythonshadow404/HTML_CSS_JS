@@ -74,6 +74,9 @@ dl dt {font-weight: bold ;}
     font-style: italic;
 }
 
+table{margin: 0; width: 60%;}
+
+
 footer {
     background-color: #9bc1c2;
     font-size: 0.60em;
