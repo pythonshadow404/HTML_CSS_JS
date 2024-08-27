@@ -1,0 +1,11 @@
+fieldset {  width: 320px;
+        border: 2px ridge #ff0000;
+        padding: 10px;
+        margin-bottom: 10px; }
+legend {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+label {
+    font-family: Arial, sans-serif;
+}
