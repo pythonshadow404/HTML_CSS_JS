@@ -18,8 +18,7 @@
         <input type="search" name="keyword" id="keyword">
                 
     </form>
-    <form action="#">
-        <h1>Choose Your Favorite Color</h1>
+    <h1>Choose Your Favorite Color</h1>
         <form action="">
             <label for="color">Favorite Color:</label>
             <input type="text" name="color" id="color" list="colors">
@@ -28,12 +27,16 @@
                     <option value="green" label="green"></option>
                     <option value="blue" label="blue"></option>
                     <option value="yellow" label="yellow">
-                    <option value="pink" label="pink">
+                    <option value="" label="">
                     <option value="red" label="Red">
                         </option>
                     </option>
                 </datalist>
         </form>
-    </form>
+        <h1>Choose a Number</h1>
+        <form action="">
+            <label for="myChoice">Choose a number between 1 and 100:</label><br>
+            low <input type="range" name="myChoice" id="myChoice" min="1" max="100"> High
+        </form>
 </body>
 </html>
