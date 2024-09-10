@@ -12,6 +12,32 @@
         <input type="text" name="myName" id="myName"><br />
         <label for="myEmail">Email:</label><br />
         <input type="text" name="myEmail" id="myEmail">
+        <fieldset>
+            <legend>Select Your Favorite Types of Music:</legend>
+            <input type="checkbox" name="pop" id="pop" value="yes">Pop<br />
+            <input type="checkbox" name="pop" id="pop" value="yes">Classical<br />
+            <input type="checkbox" name="pop" id="pop" value="yes">Rock<br />
+            <input type="checkbox" name="pop" id="pop" value="yes">Folk<br />
+            <input type="checkbox" name="pop" id="pop" value="yes">Rap<br />
+            <input type="checkbox" name="pop" id="pop" value="yes">Other<br />
+        </fieldset>
+        <fieldset>
+            <legend>Select how often you purchase Music CDs:</legend>
+            <input type="radio" name="weekly" id="weekly" value="weekly">Weekly<br />
+            <input type="radio" name="pop" id="pop" value="yes">A few CDs each year<br />
+            <input type="radio" name="pop" id="pop" value="yes">Monthly<br />
+            <input type="radio" name="pop" id="pop" value="yes">Never purchase<br />
+        </fieldset>
+        Select the locations you listen to Music:<br />
+        <select size="3" name="locationmenu" id="locationmenu">
+            <option value="home.index">At Home</option>
+            <option value="home.index">In the car</option>
+            <option value="home.index">Anywhere (MP3 Player)</option>
+        </select><br />
+        What role does music play in your life?<br />
+        <textarea name="comments" id="comments" cols="120" rows="10"></textarea><br /><br />
+        <input type="submit" value="Submit">
+        <input type="reset" >
     </form>
 </body>
 </html>
