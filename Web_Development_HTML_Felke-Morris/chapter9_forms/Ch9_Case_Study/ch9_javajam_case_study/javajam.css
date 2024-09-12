@@ -66,6 +66,18 @@ main h2, h3, h4, p, ul, dl{
     padding-right: 2em;
 }
 
+form {
+    padding: 2em;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
 table{  width: 90%; margin: auto;
         border-spacing: 0; background-color: #ffffcc;
 }
