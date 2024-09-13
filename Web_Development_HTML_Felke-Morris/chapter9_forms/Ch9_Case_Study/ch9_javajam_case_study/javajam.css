@@ -78,6 +78,11 @@ label {
     padding-right: 1em;
 }
 
+input, textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
 table{  width: 90%; margin: auto;
         border-spacing: 0; background-color: #ffffcc;
 }
