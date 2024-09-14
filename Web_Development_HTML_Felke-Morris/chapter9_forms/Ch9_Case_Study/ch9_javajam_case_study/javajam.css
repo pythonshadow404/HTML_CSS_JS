@@ -83,6 +83,10 @@ input, textarea {
     margin-bottom: 1em;
 }
 
+#mySubmit {
+    margin-left: 9.5em;
+}
+
 table{  width: 90%; margin: auto;
         border-spacing: 0; background-color: #ffffcc;
 }
