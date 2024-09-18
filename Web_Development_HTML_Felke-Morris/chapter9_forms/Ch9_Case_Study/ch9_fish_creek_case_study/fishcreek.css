@@ -61,6 +61,13 @@ td, th {padding: 0.5em; border: #000066 solid 1px;}
     font-size: 1.1em;
 }
 
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
 
 
 footer {
