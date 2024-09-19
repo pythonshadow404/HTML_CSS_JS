@@ -69,6 +69,14 @@ label {
     padding-right: 1em;
 }
 
+input, textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#mySubmit {
+    margin-left: 9.5em;
+}
 
 footer {
     font-size: .70em;
