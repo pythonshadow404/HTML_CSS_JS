@@ -61,6 +61,15 @@ main{
     margin-left: 170px;
 }
 
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    font-weight: bold;
+    width: 10em;
+    padding-right: 1em;
+}
+
 .floatleft {
     float: left;
     margin-right: 4em;
