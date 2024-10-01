@@ -70,6 +70,19 @@ label {
     padding-right: 1em;
 }
 
+input, textarea {
+    display: block;
+    margin-bottom: 2em;
+}
+
+#mySubmit {
+    margin-left: 12em;
+}
+
+form {
+    padding: 3em;
+}
+
 .floatleft {
     float: left;
     margin-right: 4em;
