@@ -135,9 +135,15 @@ img {
 
 }
 
+audio {
+    display: block;
+    margin-top: 1em;
+}
+
 dt{
     font-weight: bold ;
 }
+
 footer {
     background-color: #d2b48c;
     font-style: italic;
