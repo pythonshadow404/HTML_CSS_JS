@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="fishcreek.css">
+    <title>Fish Creek Contact Page</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Fish Creek Animal Hospital</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="#">Ask The Vet</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Contact Fish Creek</h2>
+            <form action="https://webdevbasics.net/scripts/fishcreek.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required />
+                <label for="email">Email:</label>
+                <input type="eamil" name="email" id="email" required />
+                <label for="comment">comment:</label>
+                <textarea name="comment" id="comment" cols="20" rows="2"></textarea>
+                <input type="submit" id="mySubmit" value="Send Now">
+            </form>
+        </main>
+        <footer>
+            Copyright &copy; 2024 Fish Creek Animal <br />
+            haendel@jean.com
+        </footer>
+    </div>
+</body>
+</html>
