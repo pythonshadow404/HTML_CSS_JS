@@ -117,6 +117,10 @@ td {text-align: center;}
 .text {text-align: left;}
 tr:nth-last-of-type(odd){background-color: #f5fafc;}
 
+video, embed {
+    float: right;
+    margin: 2em;
+}
 
 
 footer{
