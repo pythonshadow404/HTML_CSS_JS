@@ -114,6 +114,11 @@ td, th {
 tr:nth-of-type(even) {
     background-color: #9bc1c2;
 }
+audio {
+    display: block;
+    margin: 1em;
+}
+
 
 footer {
     background-color: #9bc1c2;
