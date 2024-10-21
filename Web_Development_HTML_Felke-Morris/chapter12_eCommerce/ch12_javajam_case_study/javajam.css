@@ -87,6 +87,15 @@ input, textarea {
     margin-left: 9.5em;
 }
 
+#clearleft {
+    margin: 1em;
+}
+
+#herocouch {
+    background-image: url(herocouch.jpg);
+    height: 250px;
+}
+
 table{  width: 90%; margin: auto;
         border-spacing: 0; background-color: #ffffcc;
 }
