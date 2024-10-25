@@ -61,6 +61,12 @@ td, th {padding: 0.5em; border: #000066 solid 1px;}
     font-size: 1.1em;
 }
 
+.shop {
+    width: 50%;
+    float: left;
+    padding: 1em;
+}
+
 label {
     float: left;
     display: block;
@@ -82,7 +88,7 @@ footer {
     font-size: .70em;
     padding: 10px;
     margin-left: 180px;
-
+    clear: both;
 }
 
 #mobile {display: none;}
