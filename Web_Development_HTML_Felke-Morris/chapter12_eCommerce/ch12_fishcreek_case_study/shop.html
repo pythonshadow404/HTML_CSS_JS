@@ -22,18 +22,23 @@
             </ul>
         </nav>
         <main>
-            <div class="class">
+            <h2>Shop at Fish Creek</h2>
+            <div class="shop">
                 <img src="fishtote.gif" alt="Fish Tote">
-                <form action="">
-                    <p>Carry your pet supplies and accessories in a special tote from Fish Creek. 100% cotton. $14.95.</p>
-                    <button>Add to Cart</button>
+                <p>Carry your pet supplies and accessories in a special tote from Fish Creek. 100% cotton. $14.95.</p>
+                <form method="post" action="http://www.webdevfoundations.net/scripts/cart.asp">
+                    <input type="hidden" name="descl" id="descl" value="Fish Creek Tote">
+                    <input type="hidden" name="cost1" id="cost1" value="14.95">
+                    <input type="submit" value="Add to Cart">
                 </form>
             </div>
-            <div class="class">
+            <div class="shop">
                 <img src="fishsweat.gif" alt="Fish Tote">
-                <form action="">
-                    <p>A Fish Creek sweatshirt will warm you up on cool morning walks with your pet. 100% cotton. Size XL.  $29.95.</p>
-                    <button>Add to Cart</button>
+                <p>A Fish Creek sweatshirt will warm you up on cool morning walks with your pet. 100% cotton. Size XL.  $29.95.</p>
+                <form method="post" action="http://www.webdevfoundations.net/scripts/cart.asp">
+                    <input type="hidden" name="desc2" id="desc2" value="Fish Creek Shirt">
+                    <input type="hidden" name="cost2" id="cost2" value="29.95">
+                    <input type="submit" value="Add to Cart">
                 </form>
             </div>
         </main>
