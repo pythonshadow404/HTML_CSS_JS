@@ -112,6 +112,7 @@ dt{
 }
 
 .leftfloat {
+    float: left;
     margin-left: 1em;
 }
 
