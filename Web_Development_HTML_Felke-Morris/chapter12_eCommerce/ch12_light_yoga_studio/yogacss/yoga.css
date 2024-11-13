@@ -61,6 +61,17 @@ main{
     margin-left: 170px;
 }
 
+section {
+    width: 90%;
+    padding: 1em;
+    margin: 1em 0;
+    background-color: #C8DDDE;
+}
+
+section form {
+    padding: 0;
+}
+
 label {
     float: left;
     display: block;
