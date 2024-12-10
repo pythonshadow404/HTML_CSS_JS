@@ -8,20 +8,27 @@
 <body>
     <h1>HTML & CSS Sandbox - Labels & Text Based Inputs</h1>
 
-    <form>
+    <form action="process.php" method="POST"> <!--form uses the GET request by default and all your info will be display on the webpage (which is a security nightmare)-->
         <div>
             <label for="name">Name</label>
-            <input type="text" id="name" />
+            <input type="text" id="name" placeholder="Enter name"
+             name="name" required /> <!-- name attribute is used for getting the data on the server side. So if I were to submit this to a PHP file or Python file-->
+             
         </div>
         <br />
         <div>
             <label for="email">Email</label>
-            <input type="email" id="email" />
+            <input type="email" id="email" 
+            name="email"
+            value="test@test.com" 
+            required 
+            disabled /> <!--disabled gray out the email text so user's can't change it-->
         </div>
         <br />
         <div>
             <label for="password">Password</label>
-            <input type="password" id="password" />
+            <input type="password" id="password" 
+            name="password" minlength="3" maxlength="10" />
         </div>
         <div>
             <input type="submit" value="Submit">
