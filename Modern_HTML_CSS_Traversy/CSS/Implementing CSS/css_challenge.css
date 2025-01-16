@@ -3,3 +3,11 @@ body {
     font-size: 18px;
     line-height: 1.6px;
 }
+
+header {
+    background: #5e175b;
+}
+
+h1 {
+    text-align: center; font-size: 40px; text-indent: 20px;
+}
