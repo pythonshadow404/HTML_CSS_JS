@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.box {
+    background: coral;
+    max-width: 400px;
+    margin:20px;
+    padding:20px;
+
+    /* Shorthanc */
+    border: 2px solid black; /*width style color*/
+
+    /* Same as above */
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: red; */
+
+}
+
+.box-3 {
+    border-top-left-radius: 10px;
+}
