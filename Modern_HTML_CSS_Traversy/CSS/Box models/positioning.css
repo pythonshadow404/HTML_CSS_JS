@@ -2,4 +2,53 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.box
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+
+}
+
+.box-1 {
+    position: static;
+    left: 30px;
+}
+
+.box-2 {
+    position: relative;
+    left: 30px;
+    top:20px;
+}
+
+.box-3 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+/*Sticky is a combination of Relative and Fixed */
+/* It scrolls just like a relative position but once we get to a defined position the stickiness is activated. */
+.box-4 {
+    position: sticky;
+    top:200px;
+}
+
+/* Absolute within box 5 */
+.box-5 {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background: coral;
+}
+
+.box-6 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
