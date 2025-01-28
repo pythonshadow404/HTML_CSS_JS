@@ -1,0 +1,10 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-item {
+    height: 200px;
+    width: 200px;
+    background: coral;
+    border: 1px solid black;
+}
