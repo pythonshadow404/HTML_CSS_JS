@@ -13,6 +13,8 @@ body {
     border: 1px solid black;
     padding: 20px;
     /* width: 200px; */
+    /* flex: flex-grow flex-shrink flex-basis*/
+    flex: 1 0 200px;
 }
 
 /* .item-1 {
@@ -25,4 +27,14 @@ body {
 
 .item-3 {
     flex-grow: 2;
+    /* 
+00:05:45
+
+And I'm gonna show you that in a few minutes, but the flex basis property, it just specifies the initial size of the item before any available space is distributed. So if we were to, let's say, just comment out
+
+
+00:06:00
+
+these and then for item three set flex basis to 200 pixels and we save that. Now you can see item three is now 200 pixels, right? So it'll still shrink and it'll grow to 200 pixels.  */
+    flex-basis: 200px;
 }
