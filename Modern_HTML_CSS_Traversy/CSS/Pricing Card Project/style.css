@@ -5,5 +5,19 @@
 }
 
 body {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+    background-color: #27264b;
+    color: #433f63;
 }
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+ul {
+    list-style-type: none;
+}
+
