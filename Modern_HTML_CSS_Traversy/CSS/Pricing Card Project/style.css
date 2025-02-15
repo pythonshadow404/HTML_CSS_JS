@@ -21,3 +21,10 @@ ul {
     list-style-type: none;
 }
 
+li {
+    margin-bottom: 10px;
+}
+
+.container {
+    max-width: 1100px;
+}
