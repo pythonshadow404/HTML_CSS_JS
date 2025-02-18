@@ -33,3 +33,8 @@ li {
     margin-top: 150px;
     padding: 70px 60px;
 }
+
+.pricing {
+    display: flex;
+    justify-content: space-around;
+}
