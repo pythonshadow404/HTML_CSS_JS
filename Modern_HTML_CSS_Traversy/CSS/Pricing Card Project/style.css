@@ -81,6 +81,13 @@ li {
     margin-bottom: 20px;
 }
 
+.card .price sup {
+    font-size: 18px;
+    position: relative;
+    left: -5px;
+}
+
 .card .price span {
     font-size: 18px;
+    margin-left: 5px;
 }
