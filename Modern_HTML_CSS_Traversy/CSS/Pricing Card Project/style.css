@@ -91,3 +91,8 @@ li {
     font-size: 18px;
     margin-left: 5px;
 }
+
+.card .main-text {
+    font-size: 14px;
+    margin-bottom: 50px;
+}
