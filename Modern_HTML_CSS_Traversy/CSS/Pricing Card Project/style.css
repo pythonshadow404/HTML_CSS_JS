@@ -96,3 +96,21 @@ li {
     font-size: 14px;
     margin-bottom: 50px;
 }
+
+/* Buttons */
+.btn {
+    display: block;
+    background-color: #fff;
+    color: #27264b;
+    border: 1px solid #27264b;
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #27264b;
+    color: #fff;
+}
