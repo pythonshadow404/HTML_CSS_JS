@@ -110,7 +110,14 @@ li {
     font-size: 16px;
 }
 
-.btn:hover {
+.btn-primary, .btn:hover {
     background-color: #27264b;
     color: #fff;
 }
+
+.btn-primary:hover {
+    background-color: #fff;
+    color: #27264b;
+}
+
+/* List */
