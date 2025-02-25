@@ -121,3 +121,12 @@ li {
 }
 
 /* List */
+.card ul {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.card ul li i {
+    color: #98ca9e;
+    margin-right: 10px;
+}
