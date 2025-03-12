@@ -30,8 +30,22 @@ body {
     .smartphone {
         background: lightcoral;
     }
+}
 
 @media (orientation: landscape) {
     .landscape {
         background: lightgoldenrodyellow;
+    }
+}
+
+@media (max-height: 500px) {
+    .height {
+        background: lightseagreen;
+    }
+}
+
+@media (min-width: 768px) and (max-width:  991px) {
+    body {
+        background: #333;
+    }
 }
