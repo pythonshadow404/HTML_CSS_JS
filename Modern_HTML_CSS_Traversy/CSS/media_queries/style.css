@@ -38,11 +38,11 @@ body {
     }
 }
 
-@media (max-height: 500px) {
+/* @media (max-height: 500px) {
     .height {
         background: lightseagreen;
     }
-}
+} */
 
 /* @media (min-width: 768px) and (max-width:  991px) {
     body {
