@@ -130,3 +130,14 @@ li {
     color: #98ca9e;
     margin-right: 10px;
 }
+
+/* Media Queries */
+@media (max-width:768px) {
+    .pricing {
+        flex-direction: column;
+    }
+}
+
+.container {
+    margin: 2em;
+}
