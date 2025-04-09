@@ -31,8 +31,8 @@ aside {
     padding: 20px;
 }
 
-@container (max-width: 992px) {
+/* @container (max-width: 992px) {
     main p {
         background: lightblue;
     }
-}
+} */
