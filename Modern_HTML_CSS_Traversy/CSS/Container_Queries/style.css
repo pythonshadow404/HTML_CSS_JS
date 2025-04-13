@@ -38,3 +38,9 @@ aside {
         background: lightblue;
     }
 }
+
+@container aside (max-width: 300px) {
+    aside p {
+        background: lightgreen;
+    }
+}
