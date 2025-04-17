@@ -23,4 +23,17 @@ main {
     padding: 2rem;
     margin: 1rem;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    /* Container Units */
+    width: 50cqw;
+}
+
+.card h2 {
+    margin-bottom: 0.5rem;
+    height: 50cgh;
+}
+
+@container (max-width: 600px) {
+    .card {
+        width: 95cqw;
+    }
 }
