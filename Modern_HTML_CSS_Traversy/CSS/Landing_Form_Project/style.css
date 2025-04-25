@@ -49,3 +49,17 @@ body {
 .header .header-right a:hover {
     color: purple;
 }
+
+
+/* Main Content */
+.main-content {
+    display: flex;
+}
+
+.main-content form {
+    flex: 1;
+}
+
+.main-content .text-container {
+    flex: 1;
+}
