@@ -116,5 +116,20 @@ body {
     color: white;
     font-size: 16px;
     cursor: pointer;
+}
 
+.btn:hover {
+    background-color: #ff5c4d;
+}
+
+/* Text Container */
+.text-container h1 {
+    font-size: 50px;
+    margin: 50px 0 20 px;
+    margin: 50px 0 20px;
+    line-height: 1.2;
+}
+
+.text-container {
+    font-size: 18px;
 }
