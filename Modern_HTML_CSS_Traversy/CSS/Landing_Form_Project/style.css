@@ -100,4 +100,21 @@ body {
 
 .form-group textarea {
     height: 100px;
+    resize: none;
+    margin-bottom: 10px;
+
+}
+
+/* Button */
+.btn {
+    display: block;
+    padding: 15px 20px;
+    border-radius: 20px;
+    width: 100%;
+    border: 0;
+    background-color: #ff4032;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+
 }
