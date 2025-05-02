@@ -123,7 +123,7 @@ body {
 }
 
 /* Text Container */
-/* .text-container h1 {
+.text-container h1 {
     font-size: 50px;
     margin: 50px 0 20 px;
     margin: 50px 0 20px;
@@ -132,4 +132,4 @@ body {
 
 .text-container {
     font-size: 18px;
-} */
+}
