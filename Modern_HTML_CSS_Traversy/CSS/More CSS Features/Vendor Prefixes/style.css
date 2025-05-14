@@ -6,4 +6,27 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    font-family: 18px;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
 }
