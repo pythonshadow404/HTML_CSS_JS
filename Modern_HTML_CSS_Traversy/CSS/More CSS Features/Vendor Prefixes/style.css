@@ -42,15 +42,6 @@ img {
     z-index: 1000; /*z-index greater than 1 will always remain at the top*/
 }
 
-/* Create a class that will make the header transparent */
-.header.transparent {
-    background: linear-gradient(45deg, rgba(255, 0, 0, 0.8), rgba(0,0,255,0.8));
-}
-
-.header .menu a {
-    color: #fff;
-}
-
 .header .menu ul {
     display: flex;
     justify-content: center;
@@ -64,6 +55,11 @@ img {
 
 .header .menu a:hover {
     color: #f00;
+}
+
+/* Create a class that will make the header transparent */
+.header.transparent {
+    background: linear-gradient(45deg, rgba(255, 0, 0, 0.8), rgba(0,0,255,0.8));
 }
 
 .section {
