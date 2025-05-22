@@ -27,4 +27,24 @@ a {
     text-align: center;
     height: 100vh;
     background: lightcoral;
+
+    h1 {
+        font-size: 4rem;
+        line-height: 1.2;
+    }
+
+    p {
+        font-size: 4 rem;
+        margin: 25px 0;
+
+        a {
+            color: #fff;
+
+            &:hover {
+                color: lightyellow;
+            }
+        }
+    }
 }
+
+
