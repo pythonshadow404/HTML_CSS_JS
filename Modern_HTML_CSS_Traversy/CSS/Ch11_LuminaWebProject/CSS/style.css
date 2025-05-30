@@ -102,6 +102,28 @@ Place utility class up top underneath the based stuff */
     font-weight: normal;
 }
 
+.gallery-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* To create the rows of three photos target the 
+gallery-item themselves */
+.gallery-item {
+    width: calc(33.333% - 20px);
+    border-radius: 10px;
+}
+
+.gallery-item img {
+    border-radius: 10px;
+}
+
+.gallery-item:hover {
+    opacity: 0.9;
+}
+
 /* Media Queries */
 @media(max-width: 768px) {
     .header .header-flex {
