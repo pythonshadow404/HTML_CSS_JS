@@ -5,7 +5,8 @@
 }
 
 :root {
-    --primary-color: var(--primary-color);
+    --primary-color: #fcf5e9;
+    --dark-color: #333;
     --container-normal: 1100px;
     --container-wide: 1400px;
     --container-narrow: 900px;
@@ -35,7 +36,13 @@ Place utility class up top underneath the based stuff */
 
 /* Utility Classes */
 .bg-primary {
-    background: #fcf5e9;
+    background: var(--primary-color);
+    color: var(--dark-color);
+}
+
+.bg-dark {
+    background: var(--dark-color);
+    color: #fff;
 }
 
 .section-heading {
@@ -159,8 +166,6 @@ gallery-item themselves */
 
 /* Services */
 .services {
-    background: #333;
-    color: #fff;
     padding: 3rem 0 4rem;
 }
 
@@ -191,7 +196,9 @@ gallery-item themselves */
 /* Media Queries */
 @media (max-width: 768px) {
     .header .header-flex,
-    .footer .footer-flex {
+    .footer .footer-flex,
+    .services .services-flex,
+    .team .team-flex {
         flex-direction: column;
         gap: 1.5rem;
     }
