@@ -10,9 +10,39 @@
     <title>Accessibility - Screen Reader Testing</title>
 </head>
 <body>
-    <header role="balance">
+    <!-- <header role="banner">
         <h1>My Websites</h1>
         <p>Welcome in my website</p>
     </header>
+
+    <main>
+        <h2>My Website</h2>
+    </main> -->
+
+    <!-- <a href="/" role="button">Click Me</a> -->
+
+    <!-- <img src="https://picsum.photos/200/300" alt="Random Image" 
+    role="button"
+    aria-label="Button to open modal" 
+    tabindex="0"
+    /> -->
+
+        <!-- Listbox & Option -->
+    <h2>Available Fruit</h2>
+    <ul role="listbox" aria-label="Available Fruit">
+        <li role="option">Apple</li>
+        <li role="option">Grapes</li>
+        <li role="option">Orange</li>
+        <li role="option">Cherry</li>
+    </ul>
+
+    <!-- Region -->
+     <div role="region"></div>
+
+    <script>
+        document.querySelector('img').addEventListener('click', function () {
+            alert('Image Clicked')
+        })
+    </script>
 </body>
 </html>
