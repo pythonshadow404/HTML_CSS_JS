@@ -72,3 +72,16 @@ button:hover {
 input[type='email'] {
     border-color: green;
 }
+
+/* Select required inputs */
+
+/* Select password with a maxlength of 8 */
+
+/* Select button with type of submit */
+
+/* Select only links that have a href attribute starting with # */
+
+/* Select only links that have a href attribute ending with .com */
+
+/* Select only links that have a href attribute containing traversy */
+
