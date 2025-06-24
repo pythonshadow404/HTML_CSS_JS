@@ -74,8 +74,14 @@ input[type='email'] {
 }
 
 /* Select required inputs */
+input[required] {
+    border-color: red;
+}
 
 /* Select password with a maxlength of 8 */
+input[type='password'][maxlength='8'] {
+    background: green;
+}
 
 /* Select button with type of submit */
 
