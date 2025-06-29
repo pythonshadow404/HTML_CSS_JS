@@ -22,8 +22,7 @@ body {
 */
 
 /* Get only paragraphs that are direct children of container */
-.container
- p {
+.container > p {
   font-weight: bold;
   margin-bottom: 10px;
  }
