@@ -27,8 +27,14 @@ body {
   margin-bottom: 10px;
  }
 /* Get only unordered lists that are direct children of container */
+.container > ul {
+  list-style: none;
+}
 
 /* Get only links that are direct children of container */
+.container > a {
+  color: red;
+}
 
 /* Get the immidiate sibling link after h1 */
 
