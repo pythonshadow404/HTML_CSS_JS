@@ -36,6 +36,17 @@ body {
   color: red;
 }
 
-/* Get the immidiate sibling link after h1 */
+/* Get the immidiate sibling link after h1; the plus (+) applies to first anchor that immediately follows*/
+.container h1 + a {
+  color: green;
+  font-weight: bold;
+}
 
 /* Get all links that are siblings that come after h1 */
+.container h1 ~ a {
+  color: purple;
+}
+
+.container > ul + div {
+  background: blue;
+}
