@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #007bff;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     background: #f4f4f4;
@@ -21,4 +25,44 @@ body {
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0.1);
     width: 300px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+input:focus,
+textarea:focus {
+    outline: 2px solid var(--primary-color);
+    background: #f4f4f4;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type='submit'] {
+    background: var(--primary-color);
 }
