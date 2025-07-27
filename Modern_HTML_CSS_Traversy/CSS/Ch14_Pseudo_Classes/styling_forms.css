@@ -77,3 +77,32 @@ input[type='submit'] {
     font-size: inherit;
     font-family: inherit;
 }
+
+input[type='submit']:hover {
+    background: #0056b3;
+}
+
+form:focus-within {
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #ccc;
+}
+
+input:placeholder-shown,
+textarea:placeholder-shown {
+    height: 50px;
+}
+
+input:invalid,
+textarea:invalid {
+    border-color: red;
+}
+
+input:valid,
+textarea:valid {
+    border-color: green;
+}
