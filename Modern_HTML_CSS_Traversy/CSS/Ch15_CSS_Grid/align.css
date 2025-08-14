@@ -23,5 +23,6 @@ body {
     /* justify-items: end; */
     /* align-items: center; */
     /* align-content: center; */
-    place-content: space-around;
+    /* place-content: space-around; */
+    place-items: center;
 }
