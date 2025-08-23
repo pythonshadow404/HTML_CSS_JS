@@ -9,7 +9,7 @@ body {
     height: 600px;
 }
 
-.item {
+/* .item {
     background-color: coral;
     padding: 1rem;
     border: 1px solid #333;
@@ -18,4 +18,4 @@ body {
 
 .item-grid {
     display: grid;
-}
+} */
