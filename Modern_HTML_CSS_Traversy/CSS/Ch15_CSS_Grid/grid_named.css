@@ -19,4 +19,6 @@ body {
 .item-grid {
     display: grid;
     grid-template-columns: [col-1-start] 1fr;
+    [col-1-end col-2-start] 1fr [col-2-end col-3-start] 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
