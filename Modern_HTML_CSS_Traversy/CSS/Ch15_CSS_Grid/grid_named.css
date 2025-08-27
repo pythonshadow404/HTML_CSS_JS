@@ -27,3 +27,8 @@ body {
     grid-column-start: col-1-start;
     grid-column-end: col-2-end;
 }
+
+.item-3 {
+    grid-row-start: col-2-start;
+    grid-row-end: col-3-end;
+}
