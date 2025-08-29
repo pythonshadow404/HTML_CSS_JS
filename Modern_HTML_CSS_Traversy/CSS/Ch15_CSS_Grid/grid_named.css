@@ -32,3 +32,8 @@ body {
     grid-row-start: col-2-start;
     grid-row-end: col-3-end;
 }
+
+.item-9 {
+    grid-column-start: col-2-start;
+    grid-column-end: col-3-end;
+}
