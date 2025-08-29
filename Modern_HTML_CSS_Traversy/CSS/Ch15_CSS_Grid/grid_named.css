@@ -24,8 +24,9 @@ body {
 }
 
 .item-1 {
-    grid-column-start: col-1-start;
-    grid-column-end: col-2-end;
+    /* grid-column-start: col-1-start;
+    grid-column-end: col-2-end; */
+    grid-column: col-1-start / col-2-end;
 }
 
 .item-3 {
