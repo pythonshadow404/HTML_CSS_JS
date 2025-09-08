@@ -12,9 +12,10 @@ body {
     display: grid;
     gap: 1rem;
     grid-template-areas: 
-    'header'
-    'search'
-    'nav';
+    'header header search'
+    'nav nav nav'
+    'main main aside'
+    'footer footer footer';
 }
 
 header {
@@ -41,15 +42,31 @@ nav {
 main {
     background-color: #f0f0f0;
     padding: 20px;
+    grid-area: main;
+
 }
 
 aside {
     background-color: #ddd;
     padding: 20px;
+    grid-area: aside;
 }
 
 footer {
     background-color: #666;
     color: #fff;
     padding: 20px;
+    grid-area: footer;
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-areas: 
+            'header'
+            'search'
+            'nav'
+            'main'
+            'aside'
+            'footer';
+    }
 }
