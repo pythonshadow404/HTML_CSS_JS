@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    position:relative;
+}
+
+.front {
+    background: #3498db;
+    color: #fff;
+    line-height: 300px;
+}
+
+.back {
+    background: #2ecc71;
+    color: #fff;
+    line-height: 300px;
+}
+
+.front,
