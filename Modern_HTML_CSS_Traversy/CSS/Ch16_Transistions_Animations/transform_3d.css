@@ -42,12 +42,6 @@ body {
     transform: rotateY(180deg);
 }
 
-.front {
-    background: #3498db;
-    color: #fff;
-    line-height: 300px;
-}
-
 .front,
 .back {
     position: absolute;
