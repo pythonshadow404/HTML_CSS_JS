@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: coral;
+    animation: animate1 5s; /*activates during time period and resets*/
+    animation-fill-mode: forwards; /*keeps the final state of the animation*/
+    /*animation-delay: 2s; waits before starting the animation*/
+    animation-iteration-count: infinite; /*repeats the animation infinitely*/
+    position: absolute
+}
+
+@keyframes animate1 {
+    from {
+        width: 100px;
+        background-color: coral;
+        top: 0;
+    }
+
+    to {
+        width: 300px;
+        background-color: lightblue;
+        top: 100vh;
+    }
+}
