@@ -14,7 +14,7 @@ body {
     height: 100%;
     position: relative;
     transform-style: preserve-3d;
-    /* animation: rotateCube 5s infinite linear; */
+    animation: rotateCube 5s infinite linear;
 }
 
 .face {
@@ -33,4 +33,13 @@ body {
 .back   { 
     background: #00f; 
     transform: rotateY(180deg) translateZ(100px); 
+}
+
+@keyframes rotateCube {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
 }
