@@ -76,6 +76,18 @@ img {
     transition: background-color 0.3s ease-in-out;
 }
 
+/* 
+You don't want to have a space between .navbar and .navbar-scroll. 
+If you have a space, then you're looking for this element inside 
+of this element.  You don't have a space, then you're looking for 
+this class on this element.
+ */
+
+.navbar.navbar-scroll {
+    background-color: rgba(235, 77, 85, 0.7);
+    backdrop-filter: blur(10px);
+}
+
 .navbar-flex {
     display: flex;
     justify-content: space-between;
