@@ -1,3 +1,5 @@
+// Toggle mobile menu
+// =============================
 // perform this action when the DOM loads (when the content loads)
 // when the DOM loads we want to add an event listener  run a function
 // querySelector lets us select an element or item from the DOM from the page.
@@ -12,3 +14,15 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
+
+//Change navbar background on scroll
+// ===========================
+window.addEventListener('scroll', function() {
+    const navbar = document.querySelector('.navbar');
+
+    if (window.scrollY > 0) {
+        navbar.classList.add('navbar-scroll');
+    } else { 
+        navbar.classList.remove('navbar-scroll');
+    }
+})
