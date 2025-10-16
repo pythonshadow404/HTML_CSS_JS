@@ -65,6 +65,29 @@ img {
 
 /* Topics Section Header */
 
+.section-header {
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3rem;
+};
+.section-header h2{
+    max-width: 2rem;
+    font-weight: 700;
+    color: var(--dark-color);
+    margin-bottom: 0.5rem;
+};
+.section-header p{
+    font-size: 1.3rem;
+    color: var(--dark-color);
+};
+.heading-border {
+    width: 64px;
+    height: 4px;
+    color: var(--primary-color);
+    margin: 0 auto 2rem;
+};
+
 
 /* Navbar */
 .navbar {
@@ -205,6 +228,13 @@ this class on this element.
     bottom: 0;
     left: 0;
     width: 100%;
+}
+
+/* Learn Topics */
+.topics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* fr stands for fractional units*/
+    gap: 2rem;
 }
 
 /* Media Query */
