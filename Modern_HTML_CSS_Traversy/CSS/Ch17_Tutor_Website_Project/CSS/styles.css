@@ -63,8 +63,12 @@ img {
     border-color: #fff;
 }
 
-/* Topics Section Header */
+.section {
+    margin: 4rem 0;
+}
 
+
+/* Topics Section Header */
 .section-header {
     max-width: 750px;
     margin: 0 auto;
