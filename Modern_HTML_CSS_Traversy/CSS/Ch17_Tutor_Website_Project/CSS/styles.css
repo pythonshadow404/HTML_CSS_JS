@@ -255,10 +255,22 @@ this class on this element.
     margin: 0.5rem 0;
 }
 
+/* Chapter Cards */
+.chapter-cards {
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    gap: 2rem;
+    padding: 1rem 0 4rem;
+}
 
+.chapter-cards img {
+    width: 130px;
+    margin-top: 1rem;
+}
 
-
-/* Media Query */
+/* ======================== */
+/* ***** Media Query ****** */
+/* ======================== */
 @media(max-width: 1200px) {
     .hero .hero-flex {
         gap: 2rem;
