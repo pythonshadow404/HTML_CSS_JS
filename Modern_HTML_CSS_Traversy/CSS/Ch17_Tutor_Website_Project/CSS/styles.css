@@ -63,6 +63,15 @@ img {
     border-color: #fff;
 }
 
+/* Text Classes */
+.text-primary {
+    color: var(--primary-color);
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+}
+
 .section {
     margin: 4rem 0;
 }
