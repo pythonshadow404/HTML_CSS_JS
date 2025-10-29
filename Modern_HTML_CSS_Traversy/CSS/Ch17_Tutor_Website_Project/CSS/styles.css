@@ -365,6 +365,14 @@ this class on this element.
     width: 50%;
 }
 
+/* Takeaways */
+.takeaways-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 1.5rem 0;
+}
+
 /* ======================== */
 /* ***** Media Query ****** */
 /* ======================== */
