@@ -373,6 +373,17 @@ this class on this element.
     padding: 1.5rem 0;
 }
 
+.takeaways-cards .card {
+    flex-direction: row;
+    text-align: left;
+}
+
+.takeaways-cards .card i {
+    margin-right: 1rem;
+}
+
+
+
 /* ======================== */
 /* ***** Media Query ****** */
 /* ======================== */
@@ -416,6 +427,10 @@ this class on this element.
     }
 
     .chapter-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .takeaways-cards {
         grid-template-columns: 1fr;
     }
 }
