@@ -382,6 +382,48 @@ this class on this element.
     margin-right: 1rem;
 }
 
+/* Details */
+.details .details-flex {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.details img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.details h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.details .heading-border {
+    margin: 0;
+}
+
+.details p {
+    margin: 1rem 0 2rem;
+}
+
+/* Author */
+.details + .details .details-flex {
+    flex-direction: row-reverse;
+}
+
+.details ul {
+    margin-bottom: 2rem;
+}
+
+.details ul li {
+    line-height: 0.5rem;
+}
+
+
+
 
 
 /* ======================== */
@@ -432,6 +474,12 @@ this class on this element.
 
     .takeaways-cards {
         grid-template-columns: 1fr;
+    }
+
+    .details-flex,
+    .details + .details .details-flex {
+        flex-direction: column;
+        gap: 2rem;
     }
 }
 
