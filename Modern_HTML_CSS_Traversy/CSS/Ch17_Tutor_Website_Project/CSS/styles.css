@@ -511,6 +511,57 @@ this class on this element.
     margin: 1rem 0;
 }
 
+/* Social */
+.social {
+    background: var(--dark-color);
+    color: #fff;
+    padding: 6rem 2rem;
+    text-align: center;
+    font-size: 1.7rem;
+    margin-bottom: 0;
+}
+
+.social a {
+    color: #fff;
+}
+
+.social a:hover {
+    color: var(--secondary-color);
+}
+
+.social p {
+    margin-bottom: 2rem;
+}
+
+.socia .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+/* Footer */
+.footer {
+    background: var(--primary-color);
+    color: #fff;
+    border-top: 1px solid #384653;
+    padding: 0.5rem 2rem;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: var(--dark-color)
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
 
 
 /* ======================== */
@@ -592,6 +643,27 @@ this class on this element.
 
     .info-content p {
         font-size: 1rem;
+    }
+
+    .social .social-icons {
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        padding: 0.5rem 1rem;
+    }
+
+    .social p{
+        font-size: 1.2rem;
+    }
+
+    .social i {
+        font-size: 2rem;
+    }
+
+    .footer-flex {
+        flex-direction: column;
+        text-align: center;
     }
 }
 
