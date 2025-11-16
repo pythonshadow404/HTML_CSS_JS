@@ -127,6 +127,30 @@ to the right. So we're gonna use transfrom translate X */
     transform: translateX(0);
 }
 
+/* Hero */
+.hero {
+    background: #000 url('../images/header-background.jpg') center center/cover no-repeat;
+    padding: 11.5rem 2rem 8rem;
+}
+
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.hero__content {
+    max-width: 500px;
+}
+
+.hero__title {
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+
+
+
 /* Media Queries */
 @media (max-width: 768px) {
     .navbar__menu {
