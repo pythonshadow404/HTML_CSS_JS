@@ -555,7 +555,109 @@ to the right. So we're gonna use transfrom translate X */
     margin-right: 0.5rem;
 }
 
+/* Footer */
+.footer {
+    background: var(--tertiary-color);
+    color: #9f9caf;
+    padding: 4rem 2rem;
+    font-size: 0.9rem;
+}
 
+.footer__links-link,
+.footer__social-link {
+    color: #9f9caf;
+}
+.footer__links-link:hover,
+.footer__social-link:hover {
+    color: #fff;
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+}
+
+.footer__title {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.footer__social {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+/* Inner Header */
+.inner-header {
+    background: #000 url('../images/header-background.jpg')
+    center center/cover no-repeat;
+    padding: 10rem 2rem 6rem;
+}
+
+/* Pricing */
+.pricing {
+    background: var(--tertiary-color);
+    padding: 4rem 2rem 6rem;
+}
+
+.pricing__title {
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pricing__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.pricing__card-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2.5rem;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+}
+
+.pricing__card-price {
+    font-size: 3rem;
+    color: var(--primary-color);
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.pricing__card-list {
+    text-align: left;
+    line-height: 2.5rem;
+    font-weight: 300;
+}
+
+.pricing__card-item i {
+    color: var(--primary-color);
+    margin-right: 0.5rem;
+}
+
+/* Pricing Notes */
+.pricing-notes {
+    padding: 3rem 2rem;
+    color: #9f9caf;
+    text-align: center;
+}
+
+/* Pricing Notes */
+.pricing-notes {
+    padding: 3rem 2rem;
+    color: #9f9caf;
+    text-align: center;
+}
 
 /* Media Queries */
 @media (max-width: 992px) {
@@ -671,6 +773,18 @@ to the right. So we're gonna use transfrom translate X */
         width: 100%;
         /* padding: 0.7rem; */
     }
+
+    /* Footer */
+    .footer {
+        font-size: 1rem;
+    }
+
+    .footer__container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 3rem;
+        max-width: 600px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -703,4 +817,14 @@ to the right. So we're gonna use transfrom translate X */
     .modal__content iframe {
         width: 100%;
     }
+
+    /* Pricing */
+    .pricing__cards {
+        flex-direction: column;
+    }
+
+    .pricing__card {
+        margin-bottom: 4.5rem;
+    }
+
 }
