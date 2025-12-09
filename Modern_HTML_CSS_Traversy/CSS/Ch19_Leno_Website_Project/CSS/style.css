@@ -862,9 +862,9 @@ to the right. So we're gonna use transfrom translate X */
     }
 
     /* Details Features */
-    .details-features__list-item {
+    /* .details-features__list-item {
         flex-direction: column;
         text-align: center;
-    }
+    } */
 
 }
