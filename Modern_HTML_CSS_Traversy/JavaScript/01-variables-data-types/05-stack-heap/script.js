@@ -3,10 +3,10 @@ const name = 'John';
 const age = 30;
 
 // Reference is stored in the heap
-const person = {
-  name: 'Brad',
-  age: 40,
-};
+// const person = {
+//   name: 'Brad',
+//   age: 40,
+// };
 
 let newName = name;
 newName = 'Jonathan';
