@@ -23,7 +23,7 @@ x = fruits.concat(berries);
 x = [...fruits, ...berries];
 
 // flat() - Flatten an array
-const arr = [1, 2, [3, 4, 5], 6, [7, 8]];
+const arr = [10, 2, [3, 4, 5], 6, [7, 8]];
 x = arr.flat();
 
 // Static methods of Array object
