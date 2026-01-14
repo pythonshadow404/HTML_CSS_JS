@@ -7,7 +7,7 @@
 Use some of the array methods that we looked at to mutate the following array to = the expected result below:
 
 ```js
-const arr = [1, 2, 3, 4, 5];
+// const arr = [1, 2, 3, 4, 5];
 ```
 
 **Expected Result:**
